@@ -1,0 +1,37 @@
+.itemListContainer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.itemList {
+    width: 250px;
+    height: 350px;
+    background-color: #cccccc;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemList img{
+    margin-top: 25px;
+    width: 200px;
+    height: 250px;
+}
+
+.itemList .cardInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.itemList .cardInfo p{
+    color: purple;
+    font-weight: bold;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0;
+}

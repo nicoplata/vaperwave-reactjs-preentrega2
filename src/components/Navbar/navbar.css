@@ -1,0 +1,67 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: purple;
+}
+
+nav .img-logo{
+  max-width: 150px;
+  margin-left: 1em;
+}
+
+#navbarMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+}
+
+#navbarMenu li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbarMenu li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+#navbarMenu li a:hover {
+  color: #17cf97;
+}
+
+#navbarMenu li a:hover::after{
+  content: '';
+  width: 30%;
+  height: 2px;
+  background: #17cf97;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+nav .cartItem{
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cartNumber{
+  width: 25px;
+  height: 25px;
+  background-color: #17cf97;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
